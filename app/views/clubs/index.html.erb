@@ -1,0 +1,10 @@
+<h1>NBA Clubs</h1>
+
+<ul>
+    <% @clubs.each do |club| %>
+        <li>Team Name: <%= club.name %></li>
+        <li>Team City: <%= club.location %></li>
+        <li>No. of NBA Championships: <%= club.championships %></li>
+        <br>
+    <% end %>
+</ul>

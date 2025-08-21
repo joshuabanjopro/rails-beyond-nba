@@ -1,0 +1,8 @@
+<h1><%= @club.name %></h1>
+
+<h2>Key Stats</h2>
+
+<p><%= @club.location %></p>
+<p><%= "🏆" * @club.championships %></p>
+
+<%= link_to "Delete", club_path(@club), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} %>

@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  team: MyString
+  position: MyString
+  ppgavg: 1.5
+  mvps: 1
+  active: false
+  club: one
+
+two:
+  name: MyString
+  team: MyString
+  position: MyString
+  ppgavg: 1.5
+  mvps: 1
+  active: false
+  club: two
